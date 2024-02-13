@@ -1,0 +1,4 @@
+Bicycle System: Steering
+Bicycle Part: Handlebars
+Bicycle Part Type: Drop Bars, refers_to: handlebars
+Bicycle Part Model: Shimano XYZ Drop Bars, refers_to: Bicycle Part Type

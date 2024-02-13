@@ -1,0 +1,2 @@
+class JobStepConsideration < ApplicationRecord
+end
