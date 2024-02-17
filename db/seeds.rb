@@ -1,7 +1,7 @@
 # Bicycle systems
 bike_system__frame = BicycleSystem.create(name: "Frame", description: "Ties all the parts together and provides the structural integrity to support any riders and their cargo through their journey")
 bike_system__drivetrain = BicycleSystem.create(name: "Drivetrain", description: "Allows riders to convert their energy into directional motion for the bike")
-bike_system__braking = BicycleSystem.create(name: "Brakes", descriptions: "Allows riders to stop their momentum")
+bike_system__braking = BicycleSystem.create(name: "Brakes", description: "Allows riders to stop their momentum")
 bike_system__steering = BicycleSystem.create(name: "Steering", description: "Allows rider to guide the bicycle left, right or straight ahead")
 bike_system__wheels = BicycleSystem.create(name: "Wheels", description: "Acts as a seam between the frame and the road surface, allowing the bicycle to move")
 bike_system__suspension = BicycleSystem.create(name: "Suspension", description: "Softens the ride and takes pressure off the wheels on hard landings")
@@ -58,4 +58,4 @@ bike_part__saddle_rails = BicyclePart.create(name: "Saddle rails", bicycle_syste
 bike_part__seat = BicyclePart.create(name: "Seat", bicycle_system: bike_system__seating)
 
 # Peripherals
-# leave to later
+# todo leave to later

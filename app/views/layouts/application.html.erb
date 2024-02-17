@@ -11,6 +11,9 @@
   </head>
 
   <body>
+    <%= tag.header do %>
+        <%= render "layouts/header" %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
