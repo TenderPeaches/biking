@@ -1,0 +1,5 @@
+<%= tag.section 'new-job' do %>
+    <%= tag.h1 t('new', new: t('models.job')) %>
+
+    <%= render "jobs/form", job: @job %>
+<% end %>

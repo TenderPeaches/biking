@@ -2,3 +2,4 @@ en:
   new: "New %{new}"
 models:
   job: "Job"
+  job_step: "Step"        

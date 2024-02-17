@@ -1,0 +1,5 @@
+<%= form_with model: job, data: { test_id: "job-form" } do |form| %>
+    <%= render "jobs/fields", form: form %>
+
+    <%= render "jobs/steps", form: form, job: job %>
+<% end %>

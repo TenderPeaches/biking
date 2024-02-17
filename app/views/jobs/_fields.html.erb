@@ -1,0 +1,9 @@
+<%= tag.div class: "field" do %>
+    <%= form.label :bicycle_part_types %>
+    <%= form.collection_select :bicycle_part_types, BicyclePartType.all, :id, :name, { multiple: true } %>
+<% end %>
+
+<%= tag.div class: "field" do %>
+    <%= form.label :label %>
+    <%= form.text_field :label %>
+<% end %>

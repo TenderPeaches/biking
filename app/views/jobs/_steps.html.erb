@@ -1,0 +1,8 @@
+<%= tag.h2 t('models.job_step').pluralize %>
+<%= link_to t('new', new: t('models.job_step')), new_job_step_path, data: { turbo_stream: true } %>
+<%= tag.div "new-job-step" %>
+<%= tag.div "job-steps" do %>
+    <% job.job_steps.order(:sequence).each do |job_step| %>
+        <%= render job_step %>
+    <% end %>
+<% end %>
