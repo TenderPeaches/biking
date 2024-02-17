@@ -1,4 +1,4 @@
-<%= tag.nav, data: { test_id: "bicycle-system-nav" } do %>
+<%= tag.nav data: { test_id: "bicycle-system-nav" } do %>
     <% BicycleSystem.all.each do |bike_system| %>
         <%= link_to bike_system.name, bicycle_system_path(bike_system), class: "button" %>    
     <% end %>
